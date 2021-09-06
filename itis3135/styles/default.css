@@ -12,12 +12,26 @@ body {
     color: rgb(31, 33, 31);
 }
 
-img{
+#img-smaller{
     width: 576px;
     height: 719px;
     text-align: center;
     margin: auto;
     display: block;
+}
+
+#img-val-html {
+    border: 0;
+    width: 88px;
+    height: 31px;
+    padding: 3px;
+}
+
+#img-val-css {
+    border: 0;
+    width: 88px;
+    height: 31px;
+    padding: 3px;
 }
 
 h1, h3{
