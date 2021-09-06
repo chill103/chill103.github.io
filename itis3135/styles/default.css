@@ -1,0 +1,42 @@
+/* Charlotte Hill
+Intoduction Page Assignment
+Purpose: This is a default style sheet for the introduction page of UNCC webpage.  
+Created 9/5/2021
+
+Edited
+*/
+
+body {
+    background-color: rgb(231, 210, 231);
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(31, 33, 31);
+}
+
+img{
+    width: 576px;
+    height: 719px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+h1, h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+h2, a, p, footer {
+    text-align: center;
+}
+
+ul, ol {
+    text-align: left;
+    font-size: 18px;
+}
+
+#dev-main{
+    margin: auto;
+    max-width: 1000px;
+    display: block;
+}
+
