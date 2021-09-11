@@ -46,11 +46,43 @@ h2, a, p, footer {
 ul, ol {
     text-align: left;
     font-size: 18px;
+    padding-left: 60px;;
 }
 
-#dev-main{
-    margin: auto;
-    max-width: 1000px;
-    display: block;
+table{
+    border-collapse: collapse;
+    margin: 10px;
 }
+
+thead{
+    background-color: #91c491;
+}
+
+th, td{
+    border: 0.5px solid black;
+    padding: 2px 5px 2px 5px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #D2E7D2;
+}
+
+tbody tr:nth-child(even){
+    background-color: white;
+}
+
+tbody tr:hover{
+    background-color: #D2E7E7;
+}
+
+main{
+    margin: auto;
+    max-width: 800px;
+    display: block;
+    text-align: center;
+}
+
+
 
