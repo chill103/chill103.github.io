@@ -77,7 +77,15 @@ tbody tr:hover{
     background-color: #D2E7E7;
 }
 
-main{
+#table-main{
+    margin: auto;
+    max-width: 500px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+#act3-main{
     margin: auto;
     max-width: 500px;
     display: block;
