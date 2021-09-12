@@ -79,10 +79,65 @@ tbody tr:hover{
 
 main{
     margin: auto;
-    max-width: 800px;
+    max-width: 500px;
     display: block;
     text-align: center;
+    background-color: white;
+    padding: 10px;
 }
 
+#div-info{
+    text-align: left;
+    width: 300px;
+    margin: auto;
+    display: grid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+#name, #pnum, #email{
+    text-align: left;
+}
+
+#div-pet{
+    text-align: left;
+    margin: auto;
+    width: 200px;
+    display: block;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#div-sports{
+    text-align: left;
+    margin: auto;
+    width: 200px;
+    display: block;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#div-vehicles{
+    text-align: left;
+    margin: auto;
+    width: 200px;
+    display: block;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sub-button{
+    text-align: center;
+    padding: 10px;
+    background-color: #2A732A;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sub-button:hover{
+    background-color: #8dc28d;
+}
+
+footer{
+    padding-top: 30px;
+}
 
