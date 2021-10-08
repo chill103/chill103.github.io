@@ -1,0 +1,154 @@
+<!-- Introduction Page 
+Charlotte Hill
+
+Created 8/30/2021
+Purpose: Introcution page of UNCC Webpages
+
+Edited
+9/5/2021
+Changed: Changeing the simple output to resemble more of a website with more information about myslef and sytled with css. 
+
+-->
+<!DOCTYPE html>
+<html lang="en" >
+
+    
+
+    <head>
+
+        <!--
+            Color Scheme Information:
+            353535
+            3C6E71
+            FFFFFF
+            D9D9D9
+            284B63
+        -->
+
+        
+
+        <style>
+            body{
+                
+                background-color: #3C6E71;
+                color: #353535;
+            }
+
+            #img-icon-left{
+                width: 100px;
+                height: 100px;
+            }
+
+            #img-icon-right{
+                width: 100px;
+                height: 100px;
+                transform: rotateY(180deg);
+            }
+
+            ul {
+                list-style-type: circle;
+            }
+
+            body{
+                text-align: center;
+                
+            }
+
+            header{
+                background-color: #284B63;
+                width:auto;
+                margin: auto;
+                padding: 30px;
+                font-size: 24pt;
+                color: #FFFFFF;
+                border-bottom: 5px solid #353535;
+            }
+
+            main{
+                text-align: left;
+                background-color: #FFFFFF;
+                width: auto;
+                margin: auto;
+                padding: 20px;
+                font-size: 18pt;
+            }
+
+            footer{
+                background-color: #D9D9D9;
+                margin:auto;
+                padding: 20px;
+                border-top: 2px solid #353535;
+            }
+
+            div{
+                width: 700px;
+                margin: auto;
+            }
+
+            button{
+                align-items: center;
+            }
+        </style>
+
+        <!--
+            https://www.freepik.com/free-icon/hummingbird_857043.htm
+            Link to icon photo website
+        -->
+
+        <title>Captivating Majestic Hummingbird, LLC</title>
+    </head>
+
+    <body>
+
+        <header>
+            
+            <h2><img id="img-icon-left" src="images/hummingbird-icon.png" alt="Hummingbird Icon Left"/> Captivating Majestic Hummingbird, LLC. <img id="img-icon-right" src="images/hummingbird-icon.png" alt="Hummingbird Icon Right"/></h2>
+        </header>
+        
+        
+        
+        <main>
+            
+            <div>
+                <!-- Testing the external JavaScript file connection 
+                <button onclick="testerDisplay()">Testing Alert</button>
+            -->
+
+            <!--
+                I cannot figure out how to get the introduction to show without some kind of button.
+                <textarea onload="userIntroduction()"></textarea>-->
+
+            <button onclick="hbJoke()">Hummingbird Joke</button>
+            <button onclick="hbFact()">Hummingbird Fact</button>
+            <button onclick="hbAddition()">Hummingbird Addition</button>
+            <button onclick="hbWingMultiplication()">Hummingbird Wing Multiplication</button>
+            <button onclick="hbFeeding()">Hummingbird Feeding Math</button>
+            <button onclick="userIntroduction()">See User Introduction</button>
+
+            </div>
+
+        </main>
+
+        <footer> 
+            
+            <p>Page Built by Samples Web Solutions</p>
+            <p>Built on 9/17/2021</p>
+
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fchill103%2Fitis3135%2Factivity5.html">
+                <img id="img-val-html" src="images/button-valid-html5.gif" alt="Valid HTML5!"/>
+            </a>                
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fchill103%2Fitis3135%2Fbrand-captivating-hummingbird.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img id="img-val-css" src="images/vcss.gif" alt="Valid CSS!" />
+            </a>
+            
+
+        </footer>
+
+        <!--
+            JavaScript File Links:
+        -->
+        <script src="scripts/default.js"></script>
+        
+    </body>
+
+</html>

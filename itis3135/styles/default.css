@@ -12,6 +12,29 @@ body {
     color: rgb(31, 33, 31);
 }
 
+main{
+    background-color: white;
+    width:auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a:link{
+    color: black;
+}
+
+a:hover{
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:any-link{
+    color:black;
+}
+
 #img-smaller{
     width: 576px;
     height: 719px;
@@ -41,6 +64,10 @@ h1, h3{
 
 h2, a, p, footer {
     text-align: center;
+}
+
+#p-eval-a, #p-eval-b{
+    font-size: 14pt;
 }
 
 ul, ol {
@@ -149,3 +176,9 @@ footer{
     padding-top: 30px;
 }
 
+section{
+    
+    width: 800px;
+    margin: auto;
+    padding:20px;
+}
