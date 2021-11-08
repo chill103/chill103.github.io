@@ -1,0 +1,71 @@
+<!-- Brand Contact
+Charlotte Hill
+
+By marking this module as done, I certify that I understand my obligations under UNC Charlotte Policy 407, The Code of Student Academic Integrity (http://legal.uncc.edu/policies/up-407) and that violations of the Code may result in disciplinary proceedings including, but not limited to, failing the course.
+ 
+
+I also specifically declare that I completed programming this Activity entirely by myself, without help from classmates, friends, and former students. I may have received help from course resources and internet (to see how I can implement a specific concept or for syntax), but I did not receive or view solution of this activity from online, copy solution, or share solution in any form of this Activity with anyone else or in any forum, on- or off-line, and I will not share this solution or other information about this Activity in any way with anyone or on any on- or off-line forum in the future. Please do not ask any questions online about this activity. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+    
+
+    <head>
+
+        <!--
+            https://www.freepik.com/free-icon/hummingbird_857043.htm
+            Link to icon photo website
+        -->
+
+        <title>Captivating Majestic Hummingbird</title>
+        <link rel="stylesheet" href="styles/default.css">
+        <script src="scripts/w3.js"></script>
+        
+    </head>
+
+    <body>
+
+        <div w3-include-HTML="components/header.html"></div>
+        <div w3-include-HTML="components/menu.html"></div>
+        
+        <main>
+            
+            <h3>Contact</h3>
+
+            <form id="contact_form" name="contact_form" action="#">
+
+                <div id="user_info">
+                    <label for="user_name">Name:</label>
+                    <input type="text" id="user_name" name="user_name"><br><br>
+                    <label for="user_email">Email:</label>
+                    <input type="text" id="user_email" name="user_email"><br>
+                </div>
+
+                <div id="user_input">
+                    <div id="contact_radio">
+                        <label for="contact_type">Why are you contacting us today?</label>
+                        <input type="radio" name="contact_type" id="general" value="general" checked>General
+                        <input type="radio" name="contact_type" id="complaint" value="complaint">Complaint 
+                        <input type="radio" name="contact_type" id="request" value="request">Request <br>
+                    </div>
+
+                    <label for="comment_area">Comments:</label>
+                    <textarea name="comment_area" id="comment_area" rows="7" cols="60"></textarea><br>
+                </div>
+
+                <button id="submit_contact">Submit</button>
+            </form>
+
+            <div id="form_response">
+                <script type="text/JavaScript" src="scripts/contact.js"></script>
+            </div>
+
+        </main>
+        
+        <div w3-include-HTML="components/footer.html"></div>
+
+        <script>w3.includeHTML();</script>
+    </body>
+
+</html>
