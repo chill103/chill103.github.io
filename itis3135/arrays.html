@@ -1,0 +1,105 @@
+<!-- Introduction Page 
+Charlotte Hill
+
+Created 8/30/2021
+Purpose: Introcution page of UNCC Webpages
+
+Edited
+9/5/2021
+Changed: Changeing the simple output to resemble more of a website with more information about myslef and sytled with css. 
+
+Academic Integrity of Assignment Statement
+I, Charlotte Hill, have not copied and pasted code into these pages. I have gotten help from no person or sites
+Used to ensure that break and continue are used in JavaScript just like they are in Java.
+
+Charlotte M. Hill 
+10/10/2021 11:15 pm
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+    
+
+    <head>
+        <title>Charlotte Hill's Arrays</title>
+        <link rel="stylesheet" href="styles/default.css">
+    </head>
+
+    <body>
+        <h1>Charlotte Hill >> ITIS 3135</h1>
+        
+        <header>
+            <h3><a href="https://webpages.uncc.edu/chill103/itis3135/index.html">Introduction</a> || <a href="contract.html">Contract</a> || <a href="tables.html">Activity 2</a> || <a href="activity3.html">Activity 3</a> || <a href="brand-captivating-hummingbird.html">Activity 4</a> || <a href="website_evaluations.html">Website CRAP Evaluation</a> || <a href="images/meaningless/crap+page$CTP00.html">CRAP Page</a></h3>
+            <h2>Arrays</h2>
+        </header>
+
+        <main id="act3-main">
+           
+            
+            <h4>Employees</h4>
+            <p>Please select an employee to display their salary or to add their salary to a hidden list. <br>To see the average salary of the employees you have selected along with the highest salary, press Display Results. <br>To view the employees added to the hidden list and their salaries, click Display Salary.</p>
+            <select name="employee" id="employee">
+                <option value=""></option>
+                <option value="Charlotte Hill">Charlotte Hill</option>
+                <option value="Burton Guster">Burton Guster</option>
+                <option value="Shawn Spencer">Shawn Spencer</option>
+                <option value="J.L. Samples">J.L. Samples</option>
+                <option value="Martin Short">Martin Short</option>
+                <option value="Nikkie Lewis">Nikkie Lewis</option>
+                <option value="Carol Lite">Carol Lite</option>
+            </select>
+
+            <textarea name="employeeSalary" id="employeeSalary"></textarea>
+
+            <div name="button_options" id="button_salary_option">
+                <input type="button" id="addSalary" value="Add Salary">
+                <input type="button" id="displayResults" value="Display Results">
+                <input type="button" id="displaySalary" value="Display Salary">
+            </div>
+            
+            <div id="results">
+                <h2 id="results_tagline"></h2>
+                <p id="results_average"></p>
+                <p id="results_highest"></p>
+            </div>
+
+            <table id="results_table">
+
+                <thead>
+
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Salary ($)</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                   
+                                            
+                </tbody>
+
+            </table>
+
+        </main>
+        
+        <footer>
+
+            <a href="https://webpages.uncc.edu/chill103/">Charlotte.edu</a> || <a href="https://github.com/chill103">Github</a> || <a href="https://chill103.github.io">Github.io</a> || <a href="https://chill103.github.io/itis3135/">ITIS 3135 Github Pages</a> || <a href="https://www.freecodecamp.org/chill103">freeCodeCamp</a> 
+            
+            <p>Page Built by Samples Web Solutions</p>
+
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fchill103%2Fitis3135%2Factivity3.html">
+                <img id="img-val-html" src="images/button-valid-html5.gif" alt="Valid HTML5!"/>
+            </a>                
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fchill103%2Fitis3135%2Fstyles%2Fdefault.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img id="img-val-css" src="images/vcss.gif" alt="Valid CSS!" />
+            </a>
+            
+
+        </footer>
+
+        <script src="scripts/arrays.js"></script>
+
+    </body>
+
+</html>

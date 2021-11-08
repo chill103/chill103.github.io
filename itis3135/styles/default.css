@@ -182,3 +182,89 @@ section{
     margin: auto;
     padding:20px;
 }
+.calculator {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-gap: 5px 5px;
+    
+}
+
+#display{
+    grid-column: 1 / 5;
+    grid-row: 1;
+}
+#btnClear{
+    grid-column: 1;
+    grid-row: 2;
+}
+#btnDivide{
+    grid-column: 2;
+    grid-row: 2;
+}
+#btnMultiply{
+    grid-column: 3;
+    grid-row: 2;
+}
+#btnSubtract{
+    grid-column: 4;
+    grid-row: 2;
+}
+#btnSeven{
+    grid-column: 1;
+    grid-row: 3;
+}
+#btnEight{
+    grid-column: 2;
+    grid-row: 3;
+}
+#btnNine{
+    grid-column: 3;
+    grid-row: 3;
+}
+#btnPlus{
+    grid-row: 3 / 5;
+    grid-column: 4;
+} 
+#btnFour{
+    grid-column: 1;
+    grid-row: 4;
+}
+#btnFive{
+    grid-column: 2;
+    grid-row: 4;
+}
+#btnSix{
+    grid-column: 3;
+    grid-row: 4;
+}
+#btnOne{
+    grid-column: 1;
+    grid-row: 5;
+}
+#btnTwo{
+    grid-column: 2;
+    grid-row: 5;
+}
+#btnThree{
+    grid-column: 3;
+    grid-row: 5;
+}
+#btnEnter{
+    grid-row: 5 / 7;
+    grid-column: 4;
+}
+#btnZero{
+    grid-column: 1 / 3;
+    grid-row: 6;
+}
+#btnDecimal{
+    grid-column: 3;
+    grid-row: 6;
+}
+
+#button_salary_option{
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+}
+
