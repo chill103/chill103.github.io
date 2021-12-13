@@ -1,0 +1,42 @@
+{"patterns":[
+    {
+        "title": "Knots of Love NICU Blankie Pattern",
+        "from": "Knots of Love",
+        "type": "Knitting",
+        "skill": "Beginner",
+        "image": ["kolblankie.png"],
+        "materials": "Any Soft Yarn: weight does not matter, Size 9 Needles: circular or straight"
+    },
+    {
+        "title": "Preemie Crochet Octopus",
+        "from": "Yarnspirations",
+        "type": "Crochet",
+        "skill": "Intermediante",
+        "image": ["ys_octo.png, ys_octo_stitch.png"],
+        "materials": "Medium 4 Yarn, Size G/6 (4mm) Crochet Hook, Black Embroirdery Floss, Embroirdery Needle"
+    },
+    {
+        "title": "Snuggle Cuddle Cocoon Crochet Pattern",
+        "from": "Mama That Makes",
+        "type": "Crochet",
+        "skill": "Intermediante",
+        "image": ["mtm_cocoon_a.JPG, mtm_cocoon_b.JPG, mtm_cocoon_c.JPG"],
+        "materials": "Light 3 Yarn, Size G/6 (4mm) Crochet Hook, 3 Buttons"
+    },
+    {
+        "title": "Crochet Ventilator Bonnet",
+        "from": "Stoke &Staffordshire",
+        "type": "Crochet",
+        "skill": "Beginner",
+        "image": ["ss_vent_a.png"],
+        "materials": "Medium 4 Yarn, Size 11 (3mm) Crochet Hook, Size 2.5mm Crochet Hook"
+    },
+    {
+        "title": "NICU Smock Pattern",
+        "from": "Everything Your Mama Made & More!",
+        "type": "Sewing",
+        "skill": "Beginner",
+        "image": ["smock_a.png, smock_b.png, smock_c.png"],
+        "materials": "Cotton Flannel, Thread that is approriate for cloth, Basic Sewing Supplies or Machine, Velcro that can be sewn on or Plastic Snaps (please do not use any form of a metal fastener), NOTE: 1/3 yard needed for a single layer smock, a reversable smock will need 2/3 yard"
+    }
+]}

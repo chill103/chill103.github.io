@@ -10,25 +10,69 @@
     <head>
         <title>Preemie Homemade Projects</title>
         <link rel="stylesheet" href="styles/default.css">
-        <script src="scripts/w3.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+           
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="scripts/index.js"></script>
     </head>
 
     <body>
         <header>
-            <h2>Project Preemie Homemade</h2>
+            <img id="logo" src="images/preemie_logo.png" alt="PPM Logo"/>
+            <h2 id="banner">Project Preemie Homemade</h2>
+            <nav id="main_nav">
+                <a id="index_item" href="index.html">Home</a>
+                <a id="display_item" href="projects_display.html">Projects</a>
+                <div id="materials_dropdown">
+                    <a id="materials_content">Materials</a>
+                    <ul id="materials_dropdown_content">
+                        <li><a href="ck_materials.html">Crochet & Knitting</a></li>
+                        <li><a href="sew_materials.html">Sewing</a></li>
+                    </ul>
+                </div>
+                <a id="donate_item" href="donate_guidelines.html">Donating Guidelines</a>
+                <div id="about_dropdown">   
+                    <a id="about_content">About Us</a>
+                    <ul id="about_dropdown_content">
+                        <li><a href="about_faq.html">About & FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>                    
+                </div> 
+            </nav>
         </header>
         
        
         <main>
-            
-            
+            <div id="index_body">
+                <h1>Welcome!</h1>
+                <h2>Project Preemie Homemade was started by a group of coworkers donating their time to make items for the preemie babies in Wake Forest Baptist Health Brenner's Children's Hospital's NICU. They strived to help support both the babies and their families.</h2>
+                <h3>About Preemies</h3>
+                <p>Preemie children in the NICU have a very difficult time with regulating their internal temperature. One of the goals of the incubators used to help them is to
+                help provide them with stable warmth and a suitable, clean evironment for them to continue to grow for several months while doctors and nurses work to ensure they
+                are growing properly with minimal complications until they can leave the NICU and go home with their families. Part of the difficulties with preemie babies is not only
+                temperature regulation but the fact that they should still be in uttero means that they need stimulations that are found inside the womb but that are not as easily replicated
+                in the incurbators.</p>
+                <ul id="slider">
+                    <li><img src="images/four_octo_toys.jpg" alt="Ocotpus Toys"></li>
+                    <li><img src="images/nicu_smocks.jpg" alt="NICU Smocks"></li>
+                    <li><img src="images/seaseme_char.jpg" alt="Seaseme Character Blankets"></li>
+                    <li><img src="images/skirted_smock.jpg" alt="Skirted Smock"></li>
+                    <li><img src="images/xmas_baby.jpg" alt="Christmas Baby"></li>
+                </ul>
+                <p>One way to help them regulate temperature and provide ways to simulate aspects of the womb that the incubators cannot, is with homemade crafting projects
+                that can be given to a family with a preemie in the NICU or donated directly to NICUs (preferred for sanitization reasons). These "craft" projects can be sewing, crochet, knitting,
+                etc. that can easily be completed at home without a large financial dedication. This sight will endever to provide a gallery of these projects for users to choose from 
+                along with providing them with the best information about materials that can be used with preemies. While the materials used for all babies needs to be carefully chosen
+                preemies are espceially sensitive to materials and fabrics. Each project will have its own page with the materials needed and the instructions needed for the project along with
+                the information about where/whom the project is from.</p>
+            </div>
         </main>
 
 
         <footer>
 
-            <a href="https://webpages.uncc.edu/chill103/">Charlotte.edu</a> || <a href="https://github.com/chill103">Github</a> || <a href="https://chill103.github.io">Github.io</a> || <a href="https://chill103.github.io/itis3135/">ITIS 3135 Github Pages</a> || <a href="https://www.freecodecamp.org/chill103">freeCodeCamp</a> 
-            
             <p>Page Built by Samples Web Solutions</p>
 
             <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fchill103%2Fitis3135%2Findex.html">
@@ -38,10 +82,9 @@
                 <img id="img-val-css" src="images/vcss.gif" alt="Valid CSS!" />
             </a>
             
-
         </footer>
 
-        <script>w3.includeHTML();</script>
+        
     </body>
 
 </html>

@@ -18,6 +18,38 @@ main{
     margin-left: 20%;
     margin-right: 20%;
 }
+header{
+    background-color: #284B63;
+    width:auto;
+    margin: auto;
+    padding: 30px;
+    font-size: 24pt;
+    color: #FFFFFF;
+    border-bottom: 5px solid #353535;
+}
+
+nav{
+    background-color: rgb(201, 200, 200);
+    position: relative;
+    margin: 0px;
+    padding: 3px;
+    border-bottom: 2px solid #353535;
+}
+
+nav a{
+    font-size: 16pt;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0px 50px 0px 50px;
+}
 
 a:link{
     color: black;

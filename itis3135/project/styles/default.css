@@ -1,0 +1,228 @@
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+a:any-link{
+    color:black;
+    text-decoration: none;
+}
+
+body{
+    background-color: #d7dff2;
+}
+
+header{
+    background-color: #14213d;
+    display: grid;
+    margin: 0% 1% 0% 1%;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 10px;
+    border: 1px solid #737373; 
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-gap: 5px 5px;
+}
+
+#banner{
+    font-size: 42pt;
+    font-family: cursive;
+    color: #e5e5e5;
+    align-items: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    text-align: center;
+    padding-right: 250px;
+}
+
+#logo{
+    width: 150px;
+    height: 200px;
+    padding: 3px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    align-items: center;
+}
+
+#main_nav{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    z-index: 999;
+    background-color: #fca311;
+    color: #000000;
+    font-size: 20pt;
+    border: 0.5px solid #737373;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#materials_dropdown_content{
+    display: none;
+    width: 75%;
+    align-items: left;
+    padding: 5px;
+    background-color: white;
+    list-style-type: none;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#materials_dropdown_content li{
+    padding: 5px 0px 0px 5px;
+    margin: 3px 3px 3px 3px;
+    text-align: center;
+}
+
+#materials_dropdown:hover #materials_dropdown_content {
+    display: block;
+}
+
+#about_dropdown_content{
+    display: none;
+    width: 75%;
+    align-items: left;
+    padding: 5px;
+    background-color: white;
+    list-style-type: none;
+    border: 1px solid black;
+}
+
+#about_dropdown_content li{
+    padding: 5px 0px 0px 5px;
+    margin: 3px 3px 3px 3px;
+}
+
+#about_dropdown:hover #about_dropdown_content {
+    display: block;
+}
+
+main{
+    background-color: #fcfcfc;
+    margin: 0% 1% 0% 1%;
+    border-top: 1px solid #000000;
+    padding: 10px;
+    align-items: center;
+}
+
+footer{
+    background-color: #e5e5e5;
+    margin: 0% 1% 0% 1%;
+    border: 1px solid #000000;
+    padding: 10px;
+    color: #14213d;
+    align-items: center;
+    text-align: center;
+}
+
+#knots_pattern{
+    margin: 25px;
+    margin-left: 33%;
+    margin-right: 33%;
+    align-items: center;
+}
+
+#knots_pattern h1, h2, img{
+    text-align: center;
+}
+
+#octopus_pattern{
+    margin: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+}
+
+#octopus_pattern h1, h2, img{
+    text-align: center;
+    align-items: center;
+}
+
+#cocoon_pattern{
+    margin: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+}
+
+#cocoon_pattern h1, h2, img{
+    text-align: center;
+    align-items: center;
+}
+
+#bonnet_pattern{
+    margin: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+}
+
+#bonnet_pattern h1, h2, img{
+    text-align: center;
+    align-items: center;
+}
+
+#smock_pattern{
+    margin: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+}
+
+#smock_pattern h1, h2, img{
+    text-align: center;
+    align-items: center;
+}
+
+#slider{
+    align-items: center;
+    text-align: center;
+}
+
+#about_faq, #donations{
+    margin: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+}
+
+#index_body{
+    margin: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+}
+
+#index_body h1, h2, h3, #slider{
+    text-align: center;
+    align-items: center;
+}
+
+#contact_form{
+    margin: 25px;
+    margin-left: 33%;
+    margin-right: 43%;
+    text-align: center;
+}
+
+#contact_form div{
+    margin: 10px;
+    text-align: end;
+
+}
+
+#contact_heading{
+    text-align: center;
+}

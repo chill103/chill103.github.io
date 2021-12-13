@@ -17,54 +17,47 @@ Changed: Changeing the simple output to resemble more of a website with more inf
     <head>
         <title>Charlotte Hill's Webpage</title>
         <link rel="stylesheet" href="styles/default.css">
+        <script src="scripts/w3.js"></script>
     </head>
 
     <body>
-        <h1>Charlotte Hill >> ITIS 3135</h1>
-        <h3><a href="https://webpages.uncc.edu/chill103/itis3135/index.html">Introduction</a> || <a href="contract.html">Contract</a> || <a href="tables.html">Activity 2</a> || <a href="activity3.html">Activity 3</a> || <a href="brand-captivating-hummingbird.html">Activity 4</a> || <a href="website_evaluations.html">Website CRAP Evaluation</a> || <a href="images/meaningless/crap+page$CTP00.html">CRAP Page</a> 
-            || <a href="activity5.html">Activity 5</a></h3>
-        <h2>Introduction</h2>
+
+        <div w3-include-HTML="components/header.html"></div>
+
+        <div w3-include-HTML="components/nav.html"></div>
+        
+        <main>
+            <h2>Introduction</h2>
         
        
-        <img id="img-smaller" src="images/CharlotteSelfie.jpg" alt="Charlotte's Selfie">
-        <p>Image of Charlotte Hill - photo by Charlotte Hill</p>
+            <img id="img-smaller" src="images/CharlotteSelfie.jpg" alt="Charlotte's Selfie">
+            <p>Image of Charlotte Hill - photo by Charlotte Hill</p>
         
         
-        <div id="dev-main">
-            <ul>
-                <li>Personal Background: Born in North Carolina, Love reading, cooking and art, currently designing a new pantry for my mom.</li>
-                <li>Professional Background: Internship at Center for Design Innovation</li>
-                <li>Academic Background: 2 Associates' Degrees from Forsyth Technical Community College, one in science and the other in computer programming. along with a certification in JAVA programming</li>
-                <li>Background in Course Subject Matter: I have taken several classes for HTML and CSS before.</li>
-                <li>Primary Computer Platform: Windows 10 desktop and laptop (which is now mostly used to watch HULU and Netflix because it is 8 years old and the desktop is new and much faster for anything to do with school)</li>
-                <li>Courses I am taking and Why:
-                    <ul>
-                        <li>ITSC 4155 Software Development Projects - Essentually the Capstone course to graduate </li>
-                        <li>ITIS 3135 Software Architecture and Design - To learn more about software engineering concepts</li>
-                        <li>ITIS 3135 Web App Design and Development - I have very little knowledge of Javascript, this course will teach about that and how modern webpages are being built </li>
-                        <li>ITSC 3161 Introduction to Computer Architecture - Learning more about how computer hardware and software interact and communicate</li>
-                    </ul>
-                </li>
-                <li>Funny Story or Interesting Item: I was born in the city of Charlotte but I am named after a family member (and yes, I do turn my head or look up when people say Charlotte, even if they are talking about the city)</li>
-                <li>I would also like to Share: Most of my family seems to have birthdays and anniverserys in a three month period of the year, it can get very confusing and chaotic.</li>
-            </ul>
-        </div>
+            <div id="dev-main">
+                <ul>
+                    <li>Personal Background: Born in North Carolina, Love reading, cooking and art, currently designing a new pantry for my mom.</li>
+                    <li>Professional Background: Internship at Center for Design Innovation</li>
+                    <li>Academic Background: 2 Associates' Degrees from Forsyth Technical Community College, one in science and the other in computer programming. along with a certification in JAVA programming</li>
+                    <li>Background in Course Subject Matter: I have taken several classes for HTML and CSS before.</li>
+                    <li>Primary Computer Platform: Windows 10 desktop and laptop (which is now mostly used to watch HULU and Netflix because it is 8 years old and the desktop is new and much faster for anything to do with school)</li>
+                    <li>Courses I am taking and Why:
+                        <ul>
+                            <li>ITSC 4155 Software Development Projects - Essentually the Capstone course to graduate </li>
+                            <li>ITIS 3135 Software Architecture and Design - To learn more about software engineering concepts</li>
+                            <li>ITIS 3135 Web App Design and Development - I have very little knowledge of Javascript, this course will teach about that and how modern webpages are being built </li>
+                            <li>ITSC 3161 Introduction to Computer Architecture - Learning more about how computer hardware and software interact and communicate</li>
+                        </ul>
+                    </li>
+                    <li>Funny Story or Interesting Item: I was born in the city of Charlotte but I am named after a family member (and yes, I do turn my head or look up when people say Charlotte, even if they are talking about the city)</li>
+                    <li>I would also like to Share: Most of my family seems to have birthdays and anniverserys in a three month period of the year, it can get very confusing and chaotic.</li>
+                </ul>
+            </div>
+        </main>
+        
+        <div w3-include-HTML="components/footer.html"></div>
 
-        <footer>
-
-            <a href="https://webpages.uncc.edu/chill103/">Charlotte.edu</a> || <a href="https://github.com/chill103">Github</a> || <a href="https://chill103.github.io">Github.io</a> || <a href="https://chill103.github.io/itis3135/">ITIS 3135 Github Pages</a> || <a href="https://www.freecodecamp.org/chill103">freeCodeCamp</a> 
-            
-            <p>Page Built by Samples Web Solutions</p>
-
-            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fchill103%2Fitis3135%2Findex.html">
-                <img id="img-val-html" src="images/button-valid-html5.gif" alt="Valid HTML5!"/>
-            </a>                
-            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fchill103%2Fitis3135%2Fstyles%2Fdefault.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-                <img id="img-val-css" src="images/vcss.gif" alt="Valid CSS!" />
-            </a>
-            
-
-        </footer>
+        <script>w3.includeHTML();</script>
     </body>
 
 </html>
