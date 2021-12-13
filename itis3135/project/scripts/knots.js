@@ -32,7 +32,7 @@ $(document).ready(function() {
                         slideMargin:10
                     })*/
                     // Append the information from the json file to the div element and style the output.
-                    $("#octopus_pattern").append(
+                    $("#knots_pattern").append(
                         "<h1>" + value.title + "</h1>" + 
                         "<h2>" + value.from + "</h2>" +
                         "<img src=\"images\/" + value.image[0] + "\" alt=\"" + chosen + "_picture_a\">" +
@@ -44,7 +44,7 @@ $(document).ready(function() {
                 }else if(imgArray.length == 3){
                  
                     // Append the information from the json file to the div element and style the output.
-                    $("#octopus_pattern").append(
+                    $("#knots_pattern").append(
                         "<h1>" + value.title + "</h1>" + 
                         "<h2>" + value.from + "</h2>" +
                         "<img src=\"images\/" + value.image[0] + "\" alt=\"" + chosen + "_picture_a\">" +
@@ -57,7 +57,7 @@ $(document).ready(function() {
                 }else{
 
                     // Append the information from the json file to the div element and style the output.
-                    $("#octopus_pattern").append(
+                    $("#knots_pattern").append(
                         "<h1>" + value.title + "</h1>" + 
                         "<h2>" + value.from + "</h2>" +
                         "<img src=\"images\/" + value.image + "\" alt=\"" + chosen + "_picture\">" +

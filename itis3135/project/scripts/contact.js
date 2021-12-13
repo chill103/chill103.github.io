@@ -29,53 +29,26 @@ $("#submit").addEventListener("click", () => {
 })
 
 const displayMessage = () => {
-    alert("taco");
-    // Create a new div tag
-    /*const div = document.createElement("div");
-    div.classList.add("contact_details");
-
-    // Create the h3 tag and its content, then attach it to the div
-    const h3 = document.createElement("h3");
-    const h3Text = document.createTextNode("Message");
-    h3.appendChild(h3Text);
-    div.appendChild(h3);
-
-    // Create the p tag and its content variable
-    const p = document.createElement("p");
-    const pText;
-
+    
+    
     // Determine what kind of message will be sent
     if($("#category").value == "Join Email List"){
         
-        // Add content to the message text
-        pText = document.createTextNode("Message");
-        
+        // Send a message to the user thanking them for joining
+        alert("Thank you for joining our email list! You will hear from us soon!");        
     
     }else if($("#category").value == "Comment"){
         
-        // Add content to the message text
-        pText = document.createTextNode("help");
+        // Send a message to the user thanking them for their comment
+        alert("Thank you for your comment! We love to hear from all of you.");
 
     }else{
         
-        // Add content to the message text
-        pText = document.createTextNode("here");
+        // Send a message to the user about their complaint
+        alert("We are sorry you had a complaint. We will review your complaint as soon as possible.");
 
     }
 
-    // Attach the message to the p variable and then attach to the p variable to the div
-    p.appendChild(pText);
-    div.appendChild(p);
-
-    // Add the div tag to the page
-    const node = $("div");
-    if(node == null){
-        const form = $("form");
-        form.parentNode.insertBefore(div, form);
-    }else{
-        node.parentNode.replaceChild(div, node);
-    }
-*/
 }
 
 $("#reset").addEventListener("click", () => {

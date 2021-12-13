@@ -109,6 +109,25 @@ header{
     display: block;
 }
 
+#projects_dropdown_content{
+    display: none;
+    width: 75%;
+    align-items: left;
+    padding: 5px;
+    background-color: white;
+    list-style-type: none;
+    border: 1px solid black;
+}
+
+#projects_dropdown_content li{
+    padding: 5px 0px 0px 5px;
+    margin: 3px 3px 3px 3px;
+}
+
+#projects_dropdown:hover #projects_dropdown_content {
+    display: block;
+}
+
 main{
     background-color: #fcfcfc;
     margin: 0% 1% 0% 1%;

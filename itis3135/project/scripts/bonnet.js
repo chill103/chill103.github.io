@@ -13,7 +13,7 @@ $(document).ready(function() {
             $.each(this, function(key, value) {
                 
                 let imgArray = value.image;
-                alert("here");
+                
                 // Determine if the pattern has more than one element in the image pair
                 if(imgArray.length == 2){
                     
