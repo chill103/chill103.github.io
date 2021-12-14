@@ -13,12 +13,30 @@
 // To ensure that any accedential redeclarations of variables are caught.
 "using strict"
 
-// Ask the user to enter a number between 0 and 10.
-let userNumber = prompt("The Captivating Hummingbird asks that you enter a number between 0 and 10 for the number of sides in your polygon.", 5);
+// Indicator variable to end the prompt system
+let flagNum = 0; 
+
+
+let userNumber; 
     
+// Do while loop to prompt the user and validate until they are done
+do{
+    
+    // Ask the user to enter a number between 0 and 10.
+    userNumber = prompt("The Captivating Hummingbird asks that you enter a number between 1 and 10 for the number of sides in your polygon.", 5);
+
+    // Determine if the user has entered a valid number
+    if(validateEntry() == true){
+        
+        getShape();
+
+        flagNum = 1;
+    }
+
+}while(flagNum == 0);
 
 // This function will validate the users entry by determining if a number was entered and if so, if it was a valid number.
-const validateEntry = () => {
+function validateEntry ()  {
     
     // Parse the number received from the user to an int to ensure that the number is a whole number or NaN.
     userNumber = parseInt(userNumber);
@@ -27,19 +45,22 @@ const validateEntry = () => {
     if(isNaN(userNumber)){
         
         // Call the function to prompt the user to enter a number. Pass a string explaining that a number was not entered and asking them to enter a number.
-        userValidationOutput("We're sorry but your entry is not a number. The Captivating Hummingbird asks that you enter a number between 0 and 10. Please do not write the number as a word.");
-    
+        userValidationOutput("We're sorry but your entry is not a number. The Captivating Hummingbird asks that you enter a number between 1 and 10. Please do not write the number as a word.");
+        return false;
+
     // Determine if the user entry is a number greater than 10.
     }else if(userNumber > 10){
         
         // Call the function to prompt the user to enter a new number. Pass a string explaining that the user's entry was too high and asking for a new number between 0 and 10.
-        userValidationOutput("We're sorry but your entry is too high. The Captivating Hummingbird asks that you enter a number between 0 and 10.");
-    
+        userValidationOutput("We're sorry but your entry is too high. The Captivating Hummingbird asks that you enter a number between 1 and 10.");
+        return false;
+
     // Determine if the user entry is zero.
     }else if(userNumber == 0){
     
         // Call the function to prompt the user to enter a new number. Pass a string explaining that the user's entry was zero and to enter a new number.
-        userValidationOutput("We're sorry but there is no polygon with zero sides. The Captivating Hummingbird asks that you enter a number between 0 and 10.")
+        userValidationOutput("We're sorry but there is no polygon with zero sides. The Captivating Hummingbird asks that you enter a number between 1 and 10.")
+        return false;
 
     // The number is not a word and is less than or equal to 10.
     }else{
@@ -51,24 +72,20 @@ const validateEntry = () => {
            userNumber = Math.abs(userNumber);
         }
 
-        // Call the function that will determine the output to the user and pass it the user number.
-        getShape(userNumber);
-
+        return true;
     }
 }
 
 // This function will output to the user if the validation of the entry fails. A string containing the message to the user is passed to the function.
-const userValidationOutput = (promptResponse) => {
-    
+function userValidationOutput(promptResponse) {
+
     // Prompt the user using the passed in string to tell them why the entry failed and to enter a new number.
-    userNumber = prompt(promptResponse, 9);
-    
-    // Call the user entry function to re-evaluate the new user entry.
-    validateEntry();
+    alert(promptResponse);
+
 }
 
 // This function will determine what kind of polygon has the number of sides that the user entered.
-const getShape = (userNumber) => {
+function getShape() {
 
     // This variable will hold the string value of the numbers cooresponding polygon
     var polyName;
